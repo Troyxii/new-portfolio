@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="background-color: rgba(8, 14, 44); color: white;">
+    <nav class="navbar navbar-expand-md" style="background-color: rgb(183, 175, 175)">
+      <div class="container-fluid ds-flex">
+        <!--logo and brand-->
+        <nav class="navbar">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="letter-t.png" alt="Bootstrap" width="30" height="24"/>
+            </a>
+          </div>
+        </nav>
+        <!--navigation bar-->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse"
+          style="color: white"
+          id="navbarScroll"
+        >
+          <ul class="navbar-nav ms-auto" style="--bs-scroll-height: 100px">
+            <a class="nav-link active" aria-current="page" href="index.html"
+              >Home</a
+            >
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="projects.html">projects</a>
+            <a class="nav-link" href="contact.html">contact</a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--main part-->
+    <header>
+      <div class="container text-center">
+        <h1 class="display-4">Welcome to My Portfolio</h1>
+        <p class="lead">I am Tony a passionate Fullstack Web Developer</p>
+      </div>
+    </header>
+
+    <section class="container py-5">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>About Me</h2>
+          <p>
+            Experienced full-stack developer with a passion for technology and a
+            strong focus on creating user-centric experiences. Proficient in a
+            range of programming languages, frameworks, and tools, with a
+            problem-solving mindset and effective collaboration skills.
+            Dedicated to continuous learning and staying up-to-date with the
+            latest industry trends, committed to delivering high-quality
+            solutions.
+          </p>
+          <a
+            href="about.html"
+            class="btn btn-primary"
+            style="background-color: black"
+            >Learn More</a
+          >
+        </div>
+        <div class="col-md-6">
+          <h2>My Projects</h2>
+          <p>
+            "Gym Website: Designed and developed a dynamic gym website with a
+            modern and engaging UI/UX, leveraging HTML, CSS, and JavaScript to
+            showcase services, schedules, and membership options."<br />
+            "E-commerce; Designed and developed an HTML, CSS, and Bootstrap e-commerce website 
+            for seamless shopping experience, showcasing products and demonstrating
+             web development skills."
+          </p>
+          <a
+            href="projects.html"
+            class="btn btn-primary"
+            style="background-color: black"
+            >View Projects</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-4">
+      <div class="container">
+        <p>&copy; 2023 Tony Habtdeg</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

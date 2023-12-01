@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="background-color: rgba(8, 14, 44); color: white;" >
+    <nav class="navbar navbar-expand-md" style="background-color: rgb(183, 175, 175)">
+      <div class="container-fluid ds-flex">
+        <!--logo and brand-->
+        <nav class="navbar" >
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="letter-t-removebg-preview.png" alt="Bootstrap" width="30" height="24" />
+            </a>
+          </div>
+        </nav>
+        <!--navigation bar-->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse"
+          style="color: white"
+          id="navbarScroll"
+        >
+          <ul class="navbar-nav ms-auto" style="--bs-scroll-height: 100px">
+            <a class="nav-link active" aria-current="page" href="index.html"
+              >Home</a
+            >
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="projects.html">projects</a>
+            <a class="nav-link" href="contact.html">contact</a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<!--main part-->
+<main class="container mt-3">
+    <section>
+      <h1>About Me</h1>
+      <hr>
+
+      <div class="row">
+        <div class="col-md-6">
+          <img src="devman.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+          <h2>Hello, I'm Tony Habtdeg</h2>
+          <p class="lead">I am a passionate full-stack developer with expertise in front-end and back-end technologies. With 2 years of experience, I have worked on various projects, creating robust and user-friendly web applications.</p>
+          <p>I specialize in using modern web technologies such as HTML, CSS, JavaScript, and frameworks like Bootstrap to develop responsive and visually appealing websites. I am also proficient in python.</p>
+          <p>My goal is to create seamless, intuitive user experiences and solve complex problems with clean and efficient code. I am constantly learning and keeping up with the latest industry trends to enhance my skills and deliver high-quality solutions.</p>
+          <p>If you have any questions or would like to collaborate, feel free to reach out through the contact information provided below. I look forward to connecting with you!</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <p>&copy; 2023 Tony Habtdeg</p>
+    </div>
+  </footer>
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>
